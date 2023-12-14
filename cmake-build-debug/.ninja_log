@@ -1,10 +1,10 @@
 # ninja log v5
-18	1274	7242525873301330	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj	25d782ea22d75639
-1299	1402	7242525876091068	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj	be61f081c1f412d9
 5	711	7242534957205482	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/main.cpp.obj	92ae37e44cf6f4bf
 1278	1529	7242525877350282	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/AbstractGraph.cpp.obj	77f47ff05d46a5fd
-10	1283	7242525874660475	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj	de3d78f9271b68c7
+1299	1402	7242525876091068	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj	be61f081c1f412d9
+18	1274	7242525873301330	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj	25d782ea22d75639
 1403	1517	7242525877290319	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/HeapNode.cpp.obj	2ad8fea12521b497
+10	1283	7242525874660475	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj	de3d78f9271b68c7
 1283	1391	7242525876051097	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeList.cpp.obj	9564e83bb2d9989d
 1392	1502	7242525877140415	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/Heap.cpp.obj	be941750ec54427d
 1530	1625	7242525878389637	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Set.cpp.obj	ba217ec0cf1ead3a
@@ -12,7 +12,8 @@
 1625	1724	7242525879359046	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/MinHeap.cpp.obj	93d4dff489ad4132
 1503	1959	7242525881587655	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Queue.cpp.obj	7078ba9c96db6806
 5	87	7242526280383367	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Edge.cpp.obj	723b58da31405c22
-712	906	7242534959086630	graph_puzzle_game_emirhantandogan.exe	1711d79d431b7a48
-11	138	7242545913930133	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeString.cpp.obj	1b46a23df7877b89
+93	259	7242550368912183	graph_puzzle_game_emirhantandogan.exe	78a22b172407541a
+4	93	7242550367282532	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeString.cpp.obj	1b46a23df7877b89
 6	484	7242545917409171	CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj	890e8a1dca142394
-484	648	7242545919008251	graph_puzzle_game_emirhantandogan.exe	78a22b172407541a
+2	208	7242551726086653	build.ninja	444978356a9c06d2
+5	155	7242551728619129	graph_puzzle_game_emirhantandogan.exe	b3200eb975282156

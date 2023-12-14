@@ -147,13 +147,6 @@ build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj: 
   OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
   OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeString.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Graph/EdgeString.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph\EdgeString.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target graph_puzzle_game_emirhantandogan
@@ -162,7 +155,7 @@ build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeString.cpp
 #############################################
 # Link the executable graph_puzzle_game_emirhantandogan.exe
 
-build graph_puzzle_game_emirhantandogan.exe: CXX_EXECUTABLE_LINKER__graph_puzzle_game_emirhantandogan_Debug CMakeFiles/graph_puzzle_game_emirhantandogan.dir/main.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/AbstractGraph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeList.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Queue.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/Heap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/HeapNode.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/MinHeap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/DisjointSet.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Set.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Edge.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeString.cpp.obj
+build graph_puzzle_game_emirhantandogan.exe: CXX_EXECUTABLE_LINKER__graph_puzzle_game_emirhantandogan_Debug CMakeFiles/graph_puzzle_game_emirhantandogan.dir/main.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/AbstractGraph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeList.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Queue.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/Heap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/HeapNode.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/MinHeap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/DisjointSet.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Set.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Edge.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
