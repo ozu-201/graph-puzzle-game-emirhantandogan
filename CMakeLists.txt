@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(graph_puzzle_game_emirhantandogan
         main.cpp
-        main.h List/Graph/Graph.cpp General/AbstractGraph.cpp General/Path.cpp List/Graph/EdgeList.cpp List/Node.cpp List/Queue.cpp Array/Heap/Heap.cpp Array/Heap/HeapNode.cpp Array/Heap/MinHeap.cpp Array/DisjointSet.cpp Array/Set.cpp List/Graph/Edge.cpp List/NodeString.cpp)
+        main.h List/Graph/Graph.cpp General/AbstractGraph.cpp General/Path.cpp List/Graph/EdgeList.cpp List/Node.cpp List/Queue.cpp Array/Heap/Heap.cpp Array/Heap/HeapNode.cpp Array/Heap/MinHeap.cpp Array/DisjointSet.cpp Array/Set.cpp List/Graph/Edge.cpp List/NodeString.cpp Graph.cpp Graph.h)
