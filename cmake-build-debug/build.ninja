@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: graph_puzzle_game_emirhantandogan
+# Project: Exam_CPP
 # Configurations: Debug
 # =============================================================================
 
@@ -41,129 +41,653 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target graph_puzzle_game_emirhantandogan
+# Object build statements for STATIC_LIBRARY target Exam_CPP
 
 
 #############################################
-# Order-only phony target for graph_puzzle_game_emirhantandogan
+# Order-only phony target for Exam_CPP
 
-build cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan: phony || CMakeFiles/graph_puzzle_game_emirhantandogan.dir
+build cmake_object_order_depends_target_Exam_CPP: phony || CMakeFiles/Exam_CPP.dir
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/main.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/main.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
+build CMakeFiles/Exam_CPP.dir/src/Array/Graph/Graph.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Graph/Graph.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Graph
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Graph/Graph.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph\Graph.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph
+build CMakeFiles/Exam_CPP.dir/src/General/AbstractGraph.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/AbstractGraph.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\General\AbstractGraph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\General
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/AbstractGraph.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/General/AbstractGraph.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\General\AbstractGraph.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\General
+build CMakeFiles/Exam_CPP.dir/src/General/Path.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/Path.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\General\Path.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\General
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/General/Path.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\General\Path.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\General
+build CMakeFiles/Exam_CPP.dir/src/Array/DisjointSet.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/DisjointSet.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\DisjointSet.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeList.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph\EdgeList.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph
+build CMakeFiles/Exam_CPP.dir/src/Array/Element.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Element.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Node.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Node.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List
+build CMakeFiles/Exam_CPP.dir/src/Array/Hash.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Hash.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Queue.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Queue.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Queue.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List
+build CMakeFiles/Exam_CPP.dir/src/Array/Queue.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/Heap.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/Array/Heap/Heap.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap\Heap.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap
+build CMakeFiles/Exam_CPP.dir/src/Array/Set.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Set.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/HeapNode.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap\HeapNode.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap
+build CMakeFiles/Exam_CPP.dir/src/Array/Stack.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/MinHeap.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap\MinHeap.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Heap
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/DHeap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/DHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\DHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/DisjointSet.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/Array/DisjointSet.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\DisjointSet.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/Heap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/Heap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\Heap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Set.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/Array/Set.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array\Set.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\Array
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/HeapNode.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\HeapNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Edge.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/Graph/Edge.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph\Edge.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\Graph
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxDHeap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxDHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\MaxDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
 
-build CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj: CXX_COMPILER__graph_puzzle_game_emirhantandogan_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/List/NodeString.cpp || cmake_object_order_depends_target_graph_puzzle_game_emirhantandogan
-  DEP_FILE = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List\NodeString.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++14
-  INCLUDES = -IC:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/.
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
-  OBJECT_FILE_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir\List
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxHeap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\MaxHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinDHeap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinDHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\MinDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinHeap.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Array\Heap\MinHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Array\Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Tree.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Tree.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Tree\Tree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/TreeNode.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/TreeNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Tree\TreeNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Tree
+
+build CMakeFiles/Exam_CPP.dir/src/List/Graph/Edge.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Edge.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Graph\Edge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List\Graph
+
+build CMakeFiles/Exam_CPP.dir/src/List/Graph/EdgeList.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Graph\EdgeList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List\Graph
+
+build CMakeFiles/Exam_CPP.dir/src/List/DoublyLinkedList.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyLinkedList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\DoublyLinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/DoublyNode.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\DoublyNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Hash.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Hash.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/LinkedList.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/LinkedList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\LinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Node.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Node.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Node.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Queue.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Stack.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Queue.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Tree\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Stack.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Tree\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Element.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Element.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\Tree\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\Tree
+
+build CMakeFiles/Exam_CPP.dir/src/List/Graph/Graph.cpp.obj: CXX_COMPILER__Exam_CPP_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Graph.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles\Exam_CPP.dir\src\List\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exam_CPP.dir\src\List\Graph
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target graph_puzzle_game_emirhantandogan
+# Link build statements for STATIC_LIBRARY target Exam_CPP
 
 
 #############################################
-# Link the executable graph_puzzle_game_emirhantandogan.exe
+# Link the static library libExam_CPP.a
 
-build graph_puzzle_game_emirhantandogan.exe: CXX_EXECUTABLE_LINKER__graph_puzzle_game_emirhantandogan_Debug CMakeFiles/graph_puzzle_game_emirhantandogan.dir/main.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Graph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/AbstractGraph.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/General/Path.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/EdgeList.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Node.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Queue.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/Heap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/HeapNode.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Heap/MinHeap.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/DisjointSet.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/Array/Set.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/Graph/Edge.cpp.obj CMakeFiles/graph_puzzle_game_emirhantandogan.dir/List/NodeString.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\graph_puzzle_game_emirhantandogan.dir
+build libExam_CPP.a: CXX_STATIC_LIBRARY_LINKER__Exam_CPP_Debug CMakeFiles/Exam_CPP.dir/src/Array/Graph/Graph.cpp.obj CMakeFiles/Exam_CPP.dir/src/General/AbstractGraph.cpp.obj CMakeFiles/Exam_CPP.dir/src/General/Path.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/DisjointSet.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Element.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Hash.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Queue.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Set.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Stack.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/DHeap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/Heap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/HeapNode.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxDHeap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxHeap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinDHeap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinHeap.cpp.obj CMakeFiles/Exam_CPP.dir/src/Tree/Tree.cpp.obj CMakeFiles/Exam_CPP.dir/src/Tree/TreeNode.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Graph/Edge.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Graph/EdgeList.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/DoublyLinkedList.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/DoublyNode.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Hash.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/LinkedList.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Node.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Queue.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Stack.cpp.obj CMakeFiles/Exam_CPP.dir/src/Tree/Queue.cpp.obj CMakeFiles/Exam_CPP.dir/src/Tree/Stack.cpp.obj CMakeFiles/Exam_CPP.dir/src/Tree/Element.cpp.obj CMakeFiles/Exam_CPP.dir/src/List/Graph/Graph.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\Exam_CPP.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = graph_puzzle_game_emirhantandogan.exe
-  TARGET_IMPLIB = libgraph_puzzle_game_emirhantandogan.dll.a
-  TARGET_PDB = graph_puzzle_game_emirhantandogan.exe.dbg
+  TARGET_FILE = libExam_CPP.a
+  TARGET_PDB = Exam_CPP.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ExamTest1
+
+
+#############################################
+# Order-only phony target for ExamTest1
+
+build cmake_object_order_depends_target_ExamTest1: phony || CMakeFiles/ExamTest1.dir
+
+build CMakeFiles/ExamTest1.dir/src/Array/Graph/Graph.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Graph/Graph.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Graph
+
+build CMakeFiles/ExamTest1.dir/src/General/AbstractGraph.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/AbstractGraph.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\General\AbstractGraph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\General
+
+build CMakeFiles/ExamTest1.dir/src/General/Path.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/Path.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\General\Path.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\General
+
+build CMakeFiles/ExamTest1.dir/src/Array/DisjointSet.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/DisjointSet.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\DisjointSet.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Element.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Element.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Hash.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Hash.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Queue.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Queue.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Set.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Set.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Stack.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Stack.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/DHeap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/DHeap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\DHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/Heap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/Heap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\Heap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/HeapNode.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\HeapNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/MaxDHeap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxDHeap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\MaxDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/MaxHeap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxHeap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\MaxHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/MinDHeap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinDHeap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\MinDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Array/Heap/MinHeap.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Array\Heap\MinHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest1.dir/src/Tree/Tree.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Tree.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Tree\Tree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Tree
+
+build CMakeFiles/ExamTest1.dir/src/Tree/TreeNode.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/TreeNode.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Tree\TreeNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Tree
+
+build CMakeFiles/ExamTest1.dir/src/List/Graph/Edge.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Edge.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Graph\Edge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List\Graph
+
+build CMakeFiles/ExamTest1.dir/src/List/Graph/EdgeList.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Graph\EdgeList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List\Graph
+
+build CMakeFiles/ExamTest1.dir/src/List/DoublyLinkedList.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyLinkedList.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\DoublyLinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/DoublyNode.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyNode.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\DoublyNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/Hash.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Hash.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/LinkedList.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/LinkedList.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\LinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/Node.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Node.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Node.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/Queue.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Queue.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/List/Stack.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Stack.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List
+
+build CMakeFiles/ExamTest1.dir/src/Tree/Queue.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Queue.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Tree\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Tree
+
+build CMakeFiles/ExamTest1.dir/src/Tree/Stack.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Stack.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Tree\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Tree
+
+build CMakeFiles/ExamTest1.dir/src/Tree/Element.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Element.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\Tree\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\Tree
+
+build CMakeFiles/ExamTest1.dir/src/ExamTest1.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/ExamTest1.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\ExamTest1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src
+
+build CMakeFiles/ExamTest1.dir/src/List/Graph/Graph.cpp.obj: CXX_COMPILER__ExamTest1_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Graph.cpp || cmake_object_order_depends_target_ExamTest1
+  DEP_FILE = CMakeFiles\ExamTest1.dir\src\List\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest1.dir\src\List\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ExamTest1
+
+
+#############################################
+# Link the executable ExamTest1.exe
+
+build ExamTest1.exe: CXX_EXECUTABLE_LINKER__ExamTest1_Debug CMakeFiles/ExamTest1.dir/src/Array/Graph/Graph.cpp.obj CMakeFiles/ExamTest1.dir/src/General/AbstractGraph.cpp.obj CMakeFiles/ExamTest1.dir/src/General/Path.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/DisjointSet.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Element.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Hash.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Queue.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Set.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Stack.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/DHeap.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/Heap.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/HeapNode.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/MaxDHeap.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/MaxHeap.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/MinDHeap.cpp.obj CMakeFiles/ExamTest1.dir/src/Array/Heap/MinHeap.cpp.obj CMakeFiles/ExamTest1.dir/src/Tree/Tree.cpp.obj CMakeFiles/ExamTest1.dir/src/Tree/TreeNode.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Graph/Edge.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Graph/EdgeList.cpp.obj CMakeFiles/ExamTest1.dir/src/List/DoublyLinkedList.cpp.obj CMakeFiles/ExamTest1.dir/src/List/DoublyNode.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Hash.cpp.obj CMakeFiles/ExamTest1.dir/src/List/LinkedList.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Node.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Queue.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Stack.cpp.obj CMakeFiles/ExamTest1.dir/src/Tree/Queue.cpp.obj CMakeFiles/ExamTest1.dir/src/Tree/Stack.cpp.obj CMakeFiles/ExamTest1.dir/src/Tree/Element.cpp.obj CMakeFiles/ExamTest1.dir/src/ExamTest1.cpp.obj CMakeFiles/ExamTest1.dir/src/List/Graph/Graph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ExamTest1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ExamTest1.exe
+  TARGET_IMPLIB = libExamTest1.dll.a
+  TARGET_PDB = ExamTest1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ExamTest2
+
+
+#############################################
+# Order-only phony target for ExamTest2
+
+build cmake_object_order_depends_target_ExamTest2: phony || CMakeFiles/ExamTest2.dir
+
+build CMakeFiles/ExamTest2.dir/src/Array/Graph/Graph.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Graph/Graph.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Graph
+
+build CMakeFiles/ExamTest2.dir/src/General/AbstractGraph.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/AbstractGraph.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\General\AbstractGraph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\General
+
+build CMakeFiles/ExamTest2.dir/src/General/Path.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/General/Path.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\General\Path.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\General
+
+build CMakeFiles/ExamTest2.dir/src/Array/DisjointSet.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/DisjointSet.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\DisjointSet.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Element.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Element.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Hash.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Hash.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Queue.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Queue.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Set.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Set.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Stack.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Stack.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/DHeap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/DHeap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\DHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/Heap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/Heap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\Heap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/HeapNode.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\HeapNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/MaxDHeap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxDHeap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\MaxDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/MaxHeap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MaxHeap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\MaxHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/MinDHeap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinDHeap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\MinDHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Array/Heap/MinHeap.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Array\Heap\MinHeap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Array\Heap
+
+build CMakeFiles/ExamTest2.dir/src/Tree/Tree.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Tree.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Tree\Tree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Tree
+
+build CMakeFiles/ExamTest2.dir/src/Tree/TreeNode.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/TreeNode.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Tree\TreeNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Tree
+
+build CMakeFiles/ExamTest2.dir/src/List/Graph/Edge.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Edge.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Graph\Edge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List\Graph
+
+build CMakeFiles/ExamTest2.dir/src/List/Graph/EdgeList.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Graph\EdgeList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List\Graph
+
+build CMakeFiles/ExamTest2.dir/src/List/DoublyLinkedList.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyLinkedList.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\DoublyLinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/DoublyNode.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/DoublyNode.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\DoublyNode.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/Hash.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Hash.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Hash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/LinkedList.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/LinkedList.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\LinkedList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/Node.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Node.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Node.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/Queue.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Queue.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/List/Stack.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Stack.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List
+
+build CMakeFiles/ExamTest2.dir/src/Tree/Queue.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Queue.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Tree\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Tree
+
+build CMakeFiles/ExamTest2.dir/src/Tree/Stack.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Stack.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Tree\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Tree
+
+build CMakeFiles/ExamTest2.dir/src/Tree/Element.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/Tree/Element.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\Tree\Element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\Tree
+
+build CMakeFiles/ExamTest2.dir/src/ExamTest2.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/ExamTest2.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\ExamTest2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src
+
+build CMakeFiles/ExamTest2.dir/src/List/Graph/Graph.cpp.obj: CXX_COMPILER__ExamTest2_Debug C$:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/src/List/Graph/Graph.cpp || cmake_object_order_depends_target_ExamTest2
+  DEP_FILE = CMakeFiles\ExamTest2.dir\src\List\Graph\Graph.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ExamTest2.dir\src\List\Graph
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ExamTest2
+
+
+#############################################
+# Link the executable ExamTest2.exe
+
+build ExamTest2.exe: CXX_EXECUTABLE_LINKER__ExamTest2_Debug CMakeFiles/ExamTest2.dir/src/Array/Graph/Graph.cpp.obj CMakeFiles/ExamTest2.dir/src/General/AbstractGraph.cpp.obj CMakeFiles/ExamTest2.dir/src/General/Path.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/DisjointSet.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Element.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Hash.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Queue.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Set.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Stack.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/DHeap.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/Heap.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/HeapNode.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/MaxDHeap.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/MaxHeap.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/MinDHeap.cpp.obj CMakeFiles/ExamTest2.dir/src/Array/Heap/MinHeap.cpp.obj CMakeFiles/ExamTest2.dir/src/Tree/Tree.cpp.obj CMakeFiles/ExamTest2.dir/src/Tree/TreeNode.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Graph/Edge.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Graph/EdgeList.cpp.obj CMakeFiles/ExamTest2.dir/src/List/DoublyLinkedList.cpp.obj CMakeFiles/ExamTest2.dir/src/List/DoublyNode.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Hash.cpp.obj CMakeFiles/ExamTest2.dir/src/List/LinkedList.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Node.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Queue.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Stack.cpp.obj CMakeFiles/ExamTest2.dir/src/Tree/Queue.cpp.obj CMakeFiles/ExamTest2.dir/src/Tree/Stack.cpp.obj CMakeFiles/ExamTest2.dir/src/Tree/Element.cpp.obj CMakeFiles/ExamTest2.dir/src/ExamTest2.cpp.obj CMakeFiles/ExamTest2.dir/src/List/Graph/Graph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ExamTest2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ExamTest2.exe
+  TARGET_IMPLIB = libExamTest2.dll.a
+  TARGET_PDB = ExamTest2.exe.dbg
 
 
 #############################################
@@ -191,7 +715,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build graph_puzzle_game_emirhantandogan: phony graph_puzzle_game_emirhantandogan.exe
+build ExamTest1: phony ExamTest1.exe
+
+build ExamTest2: phony ExamTest2.exe
+
+build Exam_CPP: phony libExam_CPP.a
 
 # =============================================================================
 # Folder targets.
@@ -201,7 +729,7 @@ build graph_puzzle_game_emirhantandogan: phony graph_puzzle_game_emirhantandogan
 #############################################
 # Folder: C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug
 
-build all: phony graph_puzzle_game_emirhantandogan.exe
+build all: phony libExam_CPP.a ExamTest1.exe ExamTest2.exe
 
 # =============================================================================
 # Built-in targets

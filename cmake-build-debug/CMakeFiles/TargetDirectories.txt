@@ -1,3 +1,5 @@
-C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/graph_puzzle_game_emirhantandogan.dir
+C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/Exam_CPP.dir
+C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/ExamTest1.dir
+C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/ExamTest2.dir
 C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/TEMP/CLionProjects/graph-puzzle-game-emirhantandogan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
